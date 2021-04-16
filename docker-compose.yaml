@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+    client:
+        image: nginx
+        ports:
+          - target: 80
+            x-aws-protocol: http            
