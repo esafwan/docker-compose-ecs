@@ -1,6 +1,6 @@
-# Deploy Nginx to AWS ECS(Fargate)
+# Deploy docker to AWS ECS(Fargate)
 
-A very basic example of using `docker compose` to deploy container to AWS ECS(Fargate) using standard `docker-compose.yml` file. 
+A very basic example of using `docker compose` to deploy a NGINX container to AWS ECS(Fargate) using standard `docker-compose.yml` file. 
 
 
 ### Before you start: 
