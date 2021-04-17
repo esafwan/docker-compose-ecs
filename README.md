@@ -63,3 +63,9 @@ aws *               ecs
  1. Unable to find the cluster on AWS Console. Makse sure that you are in the right region. Check the cname provided in `docker compose up` for deployed region. You can control this by adding a default region in your aws profile.
  2. All standard docker-compose features are not supported in ECS context. [Check this link.](https://docs.docker.com/cloud/ecs-compose-features/)
  3. Make sure you are in the right context when running command.
+
+
+### Further References
+ 1. https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available/
+ 2. https://docs.docker.com/cloud/ecs-compose-features/
+ 3. https://aws.amazon.com/blogs/containers/deploy-applications-on-amazon-ecs-using-docker-compose/
